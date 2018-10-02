@@ -1,56 +1,162 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-  </head>
-  <body>
-      <!-- Nav tabs -->
-      <ul class="nav nav-tabs" id="navId">
-          <li class="nav-item">
-              <a href="#tab1Id" class="nav-link active">Active</a>
-          </li>
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-              <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#tab2Id">Action</a>
-                  <a class="dropdown-item" href="#tab3Id">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#tab4Id">Action</a>
-              </div>
-          </li>
-          <li class="nav-item">
-              <a href="#tab5Id" class="nav-link">Another link</a>
-          </li>
-          <li class="nav-item">
-              <a href="#" class="nav-link disabled">Disabled</a>
-          </li>
-      </ul>
-      
-      <!-- Tab panes -->
-      <div class="tab-content">
-          <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
-          <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
-          <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
-          <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
-          <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
-      </div>
-      
-      <script>
-          $('#navId a').click(e => {
-              e.preventDefault();
-              $(this).tab('show');
-          });
-      </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <style>
+        .main {
+            border: 1PX solid black;
+            padding: 10px;
+            margin: 5px
+        }
+        .sub {
+            border: 1PX solid black;
+            padding: 10px;
+            margin: 5px
+        }
+        #main1{
+            color:red
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar  -->
+    <nav class="nav navbar-light bg-light justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/evolving_google_identity_share.jpg"
+                            width="30" height="30" class="d-inline-block align-top" alt="">
+                        LOGO
+                    </a>
+                </div>
+                <div class="col-lg-2" style="">
+                    <ul>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </nav>
+    <!-- jumbo  -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div id="score"> Score </div>
+            <button id="up" type="button" class="btn btn-primary">Go Up</button>
+            <button id="down" type="button" class="btn btn-danger">Go Down</button>
+        </div>
+    </div>
+    <!-- info -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1">
+
+            </div>
+            <div id="main" class="col-lg-5">
+                <div id=main1 class="main">
+                    <h3>Title</h3>
+                    <Span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis repudiandae possimus quos,
+                        doloremque, quasi dolores quisquam commodi alias, animi sint delectus. Ipsam magnam blanditiis
+                        laudantium expedita qui sint natus</Span>
+                </div>
+                <div class="main">
+                    <h3>Title</h3>
+                    <Span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis repudiandae possimus quos,
+                        doloremque, quasi dolores quisquam commodi alias, animi sint delectus. Ipsam magnam blanditiis
+                        laudantium expedita qui sint natus</Span>
+                </div>
+                <div class="main">
+                    <h3>Title</h3>
+                    <Span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis repudiandae possimus quos,
+                        doloremque, quasi dolores quisquam commodi alias, animi sint delectus. Ipsam magnam blanditiis
+                        laudantium expedita qui sint natus</Span>
+                </div>
+                <div class="main">
+                    <h3>Title</h3>
+                    <Span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis repudiandae possimus quos,
+                        doloremque, quasi dolores quisquam commodi alias, animi sint delectus. Ipsam magnam blanditiis
+                        laudantium expedita qui sint natus</Span>
+                </div>
+                <div class="main">
+                    <h3>Title</h3>
+                    <Span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis repudiandae possimus quos,
+                        doloremque, quasi dolores quisquam commodi alias, animi sint delectus. Ipsam magnam blanditiis
+                        laudantium expedita qui sint natus</Span>
+                </div>
+            </div>
+            <div class="col-lg-1">
+
+            </div>
+            <div id="link" class="col-lg-2">
+                <div class="sub">
+                    <ol>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-lg-1">
+
+            </div>
+        </div>
+    </div>
+    <!-- Conatact  -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <script>
+
+        
+        var up = document.getElementById("up")
+        var down = document.getElementById("down")
+        var scoreBoard = document.getElementById("score")
+        
+        var score = 0
+        up.onclick = function(){
+            score ++
+            scoreBoard.innerHTML = 
+            "<h3> Score </h3> <span> Your score is:"+ score +" </span>"
+
+          
+
+        }
+
+
+        down.onclick = function(){
+            score --
+            scoreBoard.innerHTML = 
+            "<h3> Score </h3> <span> Your score is:"+ score +" </span>"
+        }
+        
+
+    
+
+
+
+    </script>
+</body>
+
 </html>
